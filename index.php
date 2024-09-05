@@ -53,21 +53,6 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <h1 class="m-auto">HOTELS</h1>
-            <?php foreach($hotels as $hotel) { ?>
-                <div class="hotel">
-                    <h2><?php echo $hotel['name']; ?></h2>
-                    <p><?php echo $hotel['description']; ?></p>
-                    <p>Parking: <?php echo $hotel['parking'] ? 'Available' : 'Not Available'; ?></p>
-                    <p>Vote: <?php echo $hotel['vote']; ?></p>
-                    <p>Distance to center: <?php echo $hotel['distance_to_center']; ?> km</p>
-                </div>
-            <?php } ?>
-        </div> 
-    </div>
-    <div class="row">
-            <!--dal momento che non ho capito come commentare la sezone php di sopra, continuo l'esercizio in una row sottostante, così procedere senza rovinare il lavor fatto fin ora. Quando avrò concluso come si deve la tabella, allora eliminerò la row soprastante e questo commento-->
         <div class="text-center">
             <h1>HOTELS</h1>
         </div>
