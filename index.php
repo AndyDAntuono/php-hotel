@@ -66,6 +66,39 @@
             <?php } ?>
         </div> 
     </div>
+    <div class="row">
+            <!--dal momento che non ho capito come commentare la sezone php di sopra, continuo l'esercizio in una row sottostante, così procedere senza rovinare il lavor fatto fin ora. Quando avrò concluso come si deve la tabella, allora eliminerò la row soprastante e questo commento-->
+        <div class="text-center">
+            <h1>HOTELS</h1>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrizione</th>
+                    <th scope="col">Parcheggio</th>
+                    <th scope="col">Voto</th>
+                    <th scope="col">Distanza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
     
 </body>
