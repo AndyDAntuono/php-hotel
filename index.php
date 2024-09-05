@@ -78,23 +78,20 @@
                     <th scope="col">Descrizione</th>
                     <th scope="col">Parcheggio</th>
                     <th scope="col">Voto</th>
-                    <th scope="col">Distanza</th>
+                    <th scope="col">Distanza dal centro</th>
                 </tr>
             </thead>
             <tbody>
+                <?php foreach($hotels as $hotel) {?>
+                    <tr>
+                        <td><?php echo $hotel['name']; ?></td>
+                        <td><?php echo $hotel['description']; ?></td>
+                        <td><?php echo $hotel['parking'] ? 'Available' : 'Not Available'; ?></td>
+                        <td><?php echo $hotel['vote']; ?></td>
+                        <td><?php echo $hotel['distance_to_center']; ?> km</td>
+                    </tr>
+                <?php } ?>
                 <tr>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
                 </tr>
             </tbody>
         </table>
